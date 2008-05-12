@@ -1,0 +1,9 @@
+[user]
+	name = Jason Fiset
+	email = jasonf@jmftech.com
+[core]
+	excludesfile = /Users/jasonf/.gitignore
+[alias]
+	co = checkout
+[apply]
+	whitespace = nowarn
