@@ -1,0 +1,6 @@
+== README ==
+
+Installation
+
+git clone git://github.com/jasonf/dotfiles ~/.dotfiles
+cd ~/.dotfiles
