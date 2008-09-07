@@ -41,5 +41,13 @@ do
   fi
 
 done;
+
+if [ ! -f .git/hooks/post-commit ]
+then
+  echo 'git push' > .git/hooks/post-commit
+  chmod 755 .git/hooks/post-commit
+fi
+
+
 exit 0
 
